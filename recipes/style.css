@@ -1,12 +1,12 @@
 
 .Chicken-Tenders-Recipe {
-    color: rebeccapurple;
     font-style: italic;
     text-align: center;
     font-size: 40px
 }
 .Links {
-    font-size: 40px;
+    font-style: italic;
+    font-size: 18px;
 }
 .Steps{
     text-decoration:  underline;
@@ -17,6 +17,17 @@
     margin-right: auto;
     width: 33%;
 }
-.Body {
-    background-color: goldenrod;
+* {
+    background-color: rgb(28, 10, 76);
+    color: rgb(150, 116, 29);
+}
+.Like, .Dislike {
+    color: black;
+}
+
+.Like {
+        background-color: rgb(245, 240, 240)
+}
+.Dislike {
+    background-color: rgb(248, 8, 8)
 }
