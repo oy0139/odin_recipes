@@ -1,7 +1,22 @@
+
 .Chicken-Tenders-Recipe {
     color: rebeccapurple;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px
 }
 .Links {
     font-size: 40px;
 }
-
+.Steps{
+    text-decoration:  underline;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+.Body {
+    background-color: goldenrod;
+}
