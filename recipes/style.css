@@ -1,34 +1,41 @@
 * {
     background-color: rgb(28, 10, 76);
     color: rgb(150, 116, 29);
-    box-sizing: border-box
+}
+
+.background-boxes {
+    margin: auto;
+    padding-left: 30px;
+    width: 500px;
+    height: 100vh;
+    background: rgb(181, 231, 243);
+    padding: 20px;
 }
 
 .title {
-    border: 5px dotted rgb(77, 31, 126);
-    padding: 20px;
-    width: 190px;
-    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 32px;
+    padding: 15px;
+    margin-bottom: 30px;
 }
 
 .Links {
     font-style: italic;
     font-size: 18px;
-    border: 5px dotted rgb(77, 31, 126);
-    padding: 40px;
-    margin: 40px auto;
-    width: 300px;
-    height: 150px;
+    box-sizing: border-box;
+    padding: 50px;
+    height: 400px;
+}
+
+li {
+    margin-bottom: 20px;
 }
 
 li a:hover {
-    background-color: rgb(40, 150, 102);
-}
-li {
-    margin: 0 auto;
+    background-color: rgb(200, 120, 169);
 }
 
-/* Css for Chicken Tenders Recipe page */
+/* Css specifically for Chicken Tenders Recipe page */
 
 .Chicken-Tenders-Recipe {
     font-style: italic;
@@ -41,9 +48,8 @@ li {
 }
 .image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33%;
+    margin: auto;
+    width: 30%;
 }
 .Like, .Dislike {
     color: black;
