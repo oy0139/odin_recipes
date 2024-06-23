@@ -4,11 +4,13 @@
     box-sizing: border-box
 }
 
-.Chicken-Tenders-Recipe {
-    font-style: italic;
-    text-align: center;
-    font-size: 40px
+.title {
+    border: 5px dotted rgb(77, 31, 126);
+    padding: 20px;
+    width: 190px;
+    margin: 0 auto;
 }
+
 .Links {
     font-style: italic;
     font-size: 18px;
@@ -18,18 +20,22 @@
     width: 300px;
     height: 150px;
 }
-.title {
-    border: 5px dotted rgb(77, 31, 126);
-    padding: 20px;
-    width: 190px;
-    margin: 0 auto;
-}
+
 li a:hover {
     background-color: rgb(40, 150, 102);
 }
 li {
     margin: 0 auto;
 }
+
+/* Css for Chicken Tenders Recipe page */
+
+.Chicken-Tenders-Recipe {
+    font-style: italic;
+    text-align: center;
+    font-size: 40px
+}
+
 .Steps, .Description, .Ingredients{
     text-decoration:  underline;
 }
