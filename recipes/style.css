@@ -19,14 +19,15 @@
     height: 150px;
 }
 .title {
+    border: 5px dotted rgb(77, 31, 126);
+    padding: 20px;
     width: 190px;
     margin: 0 auto;
 }
-li:hover {
-    background-color: rgb(28, 145, 28);
+li a:hover {
+    background-color: rgb(40, 150, 102);
 }
 li {
-    background-color: blue;
     margin: 0 auto;
 }
 .Steps, .Description, .Ingredients{
